@@ -5,7 +5,8 @@ function Home() {
   const navigate = useNavigate();
   return (
     <Container>
-      <h1>Home</h1>
+      <h1>This is my Profile</h1>
+      <p>You may find information about me in this page</p>
       <button onClick={() => navigate("/order-summary")}>please order</button>
     </Container>
   );

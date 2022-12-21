@@ -11,6 +11,7 @@ function Navbar() {
     return {
       Text: isActive ? "bold" : "normal",
       textDecoration: isActive ? "none" : "underline",
+      color: isActive ? "black" : "",
       // width: isActive ? "100px" : "0",
     };
   };

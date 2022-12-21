@@ -6,6 +6,7 @@ const Container = styled.div`
   background-color: white;
   text-align: center;
   border: 1px solid black;
+  background-color: aliceblue;
 `;
 const Wrapper = styled.div`
   background-color: blue;
