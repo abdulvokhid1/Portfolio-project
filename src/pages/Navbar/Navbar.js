@@ -35,6 +35,9 @@ function Navbar() {
       <NavLink to="/users" style={NavStyle}>
         users
       </NavLink>
+      <NavLink to="/memopage" style={NavStyle}>
+        MemoPage
+      </NavLink>
     </Container>
   );
 }

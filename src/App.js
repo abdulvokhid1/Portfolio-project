@@ -11,6 +11,7 @@ import Products from "./Products";
 import NewProduct from "./Components/NewProduct";
 import UserDetails from "./Components/UserDetails";
 import Users from "./Components/Users";
+import ReactMemo from "./Components/ReactMemo";
 function App() {
   return (
     <>
@@ -30,6 +31,7 @@ function App() {
         <Route path="users" element={<Users />}>
           <Route path=":userId" element={<UserDetails />} />
         </Route>
+        <Route path="memopage" element={<ReactMemo />} />
         {/* <Route path="/userdetails" element={<UserDetails />} /> */}
         {/* <Route path="*" element={<NoMatch />}></Route> */}
       </Routes>
